@@ -1,0 +1,7 @@
+jobs:
+  - job: Code_Formatting
+    displayName: Agent job - Code Formatting
+    pool:
+      vmImage: "windows-latest"
+    steps:
+      - template: CodeFormatting.yml@janono.ado.templates
